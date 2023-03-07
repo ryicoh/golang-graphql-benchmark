@@ -1,0 +1,23 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/appleboy/golang-graphql-benchmark
+BenchmarkGinHttpRoute
+BenchmarkGinHttpRoute-8             	 1765766	       662.1 ns/op	    1036 B/op	      14 allocs/op
+BenchmarkGinGQLGenRoute
+BenchmarkGinGQLGenRoute-8           	 1600208	       745.6 ns/op	     819 B/op	      12 allocs/op
+BenchmarkGinGoGraphQLRoute
+BenchmarkGinGoGraphQLRoute-8        	  114315	      9732 ns/op	   17096 B/op	     227 allocs/op
+BenchmarkGinGopherGraphQLRoute
+BenchmarkGinGopherGraphQLRoute-8    	 3471771	       340.1 ns/op	     937 B/op	       6 allocs/op
+BenchmarkGinThunderGraphQLRoute
+BenchmarkGinThunderGraphQLRoute-8   	 2209484	       539.0 ns/op	    1177 B/op	      11 allocs/op
+BenchmarkGoGraphQLMaster
+BenchmarkGoGraphQLMaster-8          	   46330	     25699 ns/op	   26893 B/op	     445 allocs/op
+BenchmarkPlaylyfeGraphQLMaster
+BenchmarkPlaylyfeGraphQLMaster-8    	  525579	      2336 ns/op	    2797 B/op	      57 allocs/op
+BenchmarkGophersGraphQLMaster
+BenchmarkGophersGraphQLMaster-8     	  615337	      1952 ns/op	    3634 B/op	      38 allocs/op
+BenchmarkThunderGraphQLMaster
+BenchmarkThunderGraphQLMaster-8     	 1000000	      1109 ns/op	    1288 B/op	      30 allocs/op
+PASS
+ok  	github.com/appleboy/golang-graphql-benchmark	13.519s
